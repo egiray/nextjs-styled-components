@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import NavBar from '@bit/egiray.erdemorbit.nav-bar'
 
 const Title = styled.h1`
   font-size:20px;
@@ -6,7 +7,11 @@ const Title = styled.h1`
 `
 
 const Home = () => (
-  <Title>Welcome to Next.js!</Title>
+  <div>
+    <NavBar></NavBar>
+    <Title>Welcome to Next.js!</Title>
+  </div>
+  
 )
 
 
